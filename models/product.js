@@ -1,4 +1,4 @@
-class Product {
+export class Product {
   constructor(
     id,
     name,
@@ -21,3 +21,5 @@ class Product {
     this.type = type;
   }
 }
+
+export default Product;
